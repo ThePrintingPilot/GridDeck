@@ -38,3 +38,20 @@ installButton?.addEventListener('state-changed', (event) => {
     statusCopy.textContent = 'GridDeck was flashed successfully. You can now reboot the device.';
   }
 });
+
+const factoryFirmwareUrl = './GridDeck.factory.bin';
+
+async function verifyFactoryFirmware() {
+  try {
+    const response = await fetch(factoryFirmwareUrl, { method: 'HEAD', cache: 'no-store' });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    statusTitle.textContent = 'Ready to install';
+    statusCopy.textContent = 'Connect your device to get started.';
+  } catch (error) {
+    statusTitle.textContent = 'Firmware file missing';
+    statusCopy.textContent = 'GridDeck.factory.bin must be uploaded beside index.html.';
+    console.error('[installer] factory firmware check failed:', error);
+  }
+}
+
+verifyFactoryFirmware();

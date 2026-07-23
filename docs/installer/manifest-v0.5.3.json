@@ -7,7 +7,7 @@
       "chipFamily": "ESP32-S3",
       "parts": [
         {
-          "path": "https://github.com/ThePrintingPilot/GridDeck/releases/download/v0.5.3/GridDeck.factory.bin",
+          "path": "./GridDeck.factory.bin",
           "offset": 0
         }
       ]
