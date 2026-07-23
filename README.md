@@ -15,6 +15,14 @@
 
 > GridDeck is an independent community project. It is not affiliated with, endorsed by, or officially connected to Formula 1, the FIA, or the OpenF1 project.
 
+## Install GridDeck
+
+The easiest way to get started is with the web installer.
+
+**[Open the GridDeck Web Installer](https://theprintingpilot.github.io/GridDeck/installer/)**
+
+Use Chrome or Edge on desktop, connect your ESP32 screen over USB, and flash GridDeck directly from the browser.
+
 ## What is GridDeck?
 
 GridDeck turns a 4.3-inch ESP32-S3 touchscreen into a dedicated motorsport information display for your desk, sim rig, workshop, or streaming setup. It presents OpenF1 data in a purpose-built interface without needing a browser, phone, or computer screen open beside you.
@@ -56,11 +64,23 @@ The enclosure, PCB-related information, printable parts, and assembly media will
 
 ## Installation
 
-### Browser installer — planned
+### Browser installer
 
-A browser-based installer is planned so most users will be able to connect GridDeck by USB, select the device, and install the latest firmware without setting up Arduino IDE.
+For most users, the recommended installation method is the browser-based installer:
 
-> **Web installer placeholder:** the installer link will be added here when it is available.
+**[Open the GridDeck Web Installer](https://theprintingpilot.github.io/GridDeck/installer/)**
+
+Requirements:
+
+- Chrome or Edge on desktop
+- USB data cable
+- Supported ESP32-S3 touchscreen device
+
+If the device is not detected, hold **BOOT** while pressing **RESET**, then try again.
+
+### Manual installation
+
+Manual flashing and development instructions will be expanded as the project documentation is finalized.
 
 ## First setup
 
@@ -126,7 +146,6 @@ During installation, GridDeck downloads the release over HTTPS, verifies its SHA
 
 A manual check is available under **Settings → Firmware update**.
 
-
 ## Data sources
 
 GridDeck supports:
@@ -144,10 +163,9 @@ Current focus:
 
 - validate OTA firmware size on the final build
 - test updates across multiple release versions
-- finish the browser installer
+- refine the web installer flow
 - add final product photos and UI screenshots
 - publish enclosure and assembly documentation
-
 
 ## Support and feedback
 
