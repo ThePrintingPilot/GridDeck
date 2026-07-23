@@ -1,16 +1,16 @@
 {
   "name": "GridDeck",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "new_install_prompt_erase": true,
   "builds": [
     {
       "chipFamily": "ESP32-S3",
       "parts": [
         {
-          "path": "https://github.com/ThePrintingPilot/GridDeck/releases/download/v0.5.2/GridDeck.factory.bin",
+          "path": "https://github.com/ThePrintingPilot/GridDeck/releases/download/v0.5.3/GridDeck.factory.bin",
           "offset": 0
         }
       ]
     }
   ]
-}s
+}
