@@ -78,10 +78,6 @@ Requirements:
 
 If the device is not detected, hold **BOOT** while pressing **RESET**, then try again.
 
-### Manual installation
-
-Manual flashing and development instructions will be expanded as the project documentation is finalized.
-
 ## First setup
 
 After booting GridDeck:
