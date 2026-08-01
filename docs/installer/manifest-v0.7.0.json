@@ -7,7 +7,7 @@
       "chipFamily": "ESP32-S3",
       "parts": [
         {
-          "path": "./firmware/GridDeck.factory.bin?v=0.7.0",
+          "path": "./firmware/GridDeck.factory.bin?build=0.7.0-f023f34050ca",
           "offset": 0
         }
       ]
