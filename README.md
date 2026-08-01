@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/images/hero-placeholder.svg" alt="GridDeck product image placeholder" width="100%">
+  <img src="docs/images/hero.svg" alt="GridDeck product image placeholder" width="100%">
 </p>
 
 <h1 align="center">GridDeck</h1>
@@ -101,7 +101,7 @@ The bottom navigation bar provides five main areas:
 A quick race-weekend overview with the next session, countdown, favorite-driver information, conditions, and useful status information.
 
 <p align="center">
-  <img src="docs/images/home-screen-placeholder.svg" alt="GridDeck home screen placeholder" width="72%">
+  <img src="docs/images/home-screen.svg" alt="GridDeck home screen placeholder" width="72%">
 </p>
 
 ### Live
@@ -109,7 +109,7 @@ A quick race-weekend overview with the next session, countdown, favorite-driver 
 Live-session tools including the timing tower, selected-driver telemetry, track map, pit stops, race control, weather, and team radio.
 
 <p align="center">
-  <img src="docs/images/live-map-placeholder.svg" alt="GridDeck live map placeholder" width="72%">
+  <img src="docs/images/live-map.svg" alt="GridDeck live map placeholder" width="72%">
 </p>
 
 ### Data
@@ -125,7 +125,7 @@ Driver and constructor championship standings, including quick access to your se
 Wi-Fi, data source, OpenF1 account, favorite driver, firmware updates, brightness, units, timezone, and screensaver behavior.
 
 <p align="center">
-  <img src="docs/images/settings-placeholder.svg" alt="GridDeck settings screen placeholder" width="72%">
+  <img src="docs/images/settings.svg" alt="GridDeck settings screen placeholder" width="72%">
 </p>
 
 ## Firmware updates
