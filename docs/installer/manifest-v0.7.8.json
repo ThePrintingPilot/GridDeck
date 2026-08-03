@@ -1,13 +1,13 @@
 {
   "name": "GridDeck",
-  "version": "0.7.4",
+  "version": "0.7.8",
   "new_install_prompt_erase": true,
   "builds": [
     {
       "chipFamily": "ESP32-S3",
       "parts": [
         {
-          "path": "./firmware/GridDeck.factory.bin?build=0.7.4-29006c3cf6b3",
+          "path": "./firmware/GridDeck.factory.bin?build=0.7.8-7ae5a10673c8",
           "offset": 0
         }
       ]
