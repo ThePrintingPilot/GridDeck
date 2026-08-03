@@ -4,6 +4,19 @@
 
 <h1 align="center">GridDeck</h1>
 
+</div>
+<div align="center">
+  <p>
+    <a href="https://theprintingpilot.com"><img src="https://img.shields.io/badge/Website-ThePrintingPilot-00e5a0?logo=googlechrome&logoColor=white" alt="Website" /></a> 
+    <a href="https://www.youtube.com/@ThePrintingPilot"><img src="https://img.shields.io/badge/YouTube-ThePrintingPilot-FF0000?logo=youtube&logoColor=white" alt="YouTube" /></a> 
+<a href="https://github.com/ThePrintingPilot/GridDeck/releases/latest"><img src="https://img.shields.io/github/v/release/ThePrintingPilot/GridDeck?color=22c55e&label=download&logo=github&logoColor=white" alt="Download" /></a>
+  </p>
+  <p>
+    <img src="https://img.shields.io/endpoint?url=https://bambu-light-mod.tomernassi.workers.dev/griddeck/badge" alt="Active Users" />
+  </p>
+</div>s
+
+
 <p align="center">
   A compact, touch-controlled OpenF1 desktop companion display for live sessions, race weekends, results, standings, weather, radio, and more.
 </p>
