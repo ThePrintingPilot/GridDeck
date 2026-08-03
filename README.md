@@ -14,7 +14,7 @@
   <p>
     <img src="https://img.shields.io/endpoint?url=https://bambu-light-mod.tomernassi.workers.dev/griddeck/badge" alt="Active Users" />
   </p>
-</div>s
+</div>
 
 
 <p align="center">
