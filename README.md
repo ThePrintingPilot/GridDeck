@@ -42,6 +42,13 @@ GridDeck turns a 4.3-inch ESP32-S3 touchscreen into a dedicated motorsport infor
 
 The display is designed to be useful before, during, and after a race weekend. It can show the next session, live timing information, telemetry, track position, pit stops, race control messages, weather, team radio links, season results, championship standings, and historical race data.
 
+**GridDeck uses both the free or paid version of OpenF1 API:**
+On the free API, GridDeck does everything except live —
+countdown, schedule, weather, standings, results, news — with each session's data
+appearing about 30 minutes after it ends. Paid unlocks the race as it happens: live
+timing tower, telemetry, moving track map, pit stops, flag alerts and fastest-lap
+banners. Same screens either way; you're paying only for real time.
+
 ## Highlights
 
 - Touch-friendly 480 × 272 interface
@@ -59,17 +66,22 @@ The display is designed to be useful before, during, and after a race weekend. I
 - GitHub-based firmware update notifications and on-device OTA installation
 
 ## Hardware
+**BOM:** (Affiliate Links)
 
-GridDeck currently targets the **Guition JC4827W543**:
+Needed:
+- 1x - Guition JC4827W543 - **[Link](https://s.click.aliexpress.com/e/_c3Ar44ER)**
+- 8x - 6x3mm Magents - **[Link](https://s.click.aliexpress.com/e/_c3qP6N2t)**
+- 4x - M3x5mm Screws - **[Link](https://s.click.aliexpress.com/e/_oogbRPM)**
+- 6x - M3xL4xOD5 Thread Inserts - **[Link](https://s.click.aliexpress.com/e/_c2Iun0o1)**
+- 1x - Internal Flat Ribbon USB C Cable (T9C-T8T-NC 20P) - **[Link](https://s.click.aliexpress.com/e/_c3w9gEZ5)** 
 
-- ESP32-S3
-- 8 MB OPI PSRAM
-- 4 MB flash
-- 4.3-inch 480 × 272 IPS touchscreen
-- NV3041A display controller
-- GT911 touch controller
+Optinal:
+- 1x - Battery - **[Link](https://s.click.aliexpress.com/e/_c4aTvomf)**
+- 1x - 2535 3W 4Ω Speaker - **[Link](https://s.click.aliexpress.com/e/_c4oY1EY7)**
 
-The enclosure, PCB-related information, printable parts, and assembly media will be added to this repository as the project is prepared for release.
+3D Printed Parts:
+- Printables - **[Link](update)**
+- Makerworld - **[Link](update)**
 
 <p align="center">
   <img src="docs/images/assembly-placeholder.svg" alt="GridDeck assembly image placeholder" width="72%">
@@ -159,10 +171,9 @@ A manual check is available under **Settings → Firmware update**.
 
 GridDeck supports:
 
-- the public OpenF1 API
+- the public OpenF1 API (OpenF1 Subscription needed for Live data page)
 - a compatible custom or self-hosted OpenF1 server
 
-Some live and historical datasets depend on what the selected server has ingested or backfilled. Empty screens do not always indicate a device problem; the requested dataset may not yet exist on that server.
 
 ## Project status
 
@@ -172,7 +183,6 @@ Current focus:
 
 - validate OTA firmware size on the final build
 - test updates across multiple release versions
-- refine the web installer flow
 - add final product photos and UI screenshots
 - publish enclosure and assembly documentation
 
