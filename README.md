@@ -131,10 +131,86 @@ A quick race-weekend overview with the next session, countdown, favorite-driver 
 
 ### Live
 
-Live-session tools including the timing tower, selected-driver telemetry, track map, pit stops, race control, weather, and team radio.
+Live-session tools. The hub opens eight views covering timing, telemetry, track
+position, strategy and conditions.
 
 <p align="center">
-  <img src="docs/images/live-map.svg" alt="GridDeck live map placeholder" width="72%">
+  <img src="docs/images/live-hub.svg" alt="GridDeck live hub" width="72%">
+</p>
+
+#### Race tower
+
+The full running order with position, driver, gap and current tyre compound. A
+coloured bar across the top carries the active flag and the lap count. When no
+session is live it shows the last completed session's classification.
+
+<p align="center">
+  <img src="docs/images/live-tower.svg" alt="GridDeck race tower" width="72%">
+</p>
+
+#### Race companion
+
+The field on the left with your favourite driver highlighted, and a detail panel
+for whoever is selected. Tap any driver to switch the panel to their gap, lap
+times, tyre age, speed, gear and DRS. A purple marker shows who holds the
+session's fastest lap.
+
+<p align="center">
+  <img src="docs/images/live-race-companion.svg" alt="GridDeck race companion" width="72%">
+</p>
+
+#### Telemetry
+
+Live car data for one driver: speed, throttle, brake, gear, RPM and DRS, with
+last and best lap underneath. Use the arrows to step through the field.
+
+<p align="center">
+  <img src="docs/images/live-telemetry.svg" alt="GridDeck telemetry" width="72%">
+</p>
+
+#### Track map
+
+The circuit outline drawn from live location data, with every car shown in its
+team colour. The outline is learned during a session and reused afterwards.
+
+<p align="center">
+  <img src="docs/images/live-map.svg" alt="GridDeck track map" width="72%">
+</p>
+
+#### Pit stops
+
+Every stop in the session, newest first, showing the lap, the driver, the tyre
+change and the stationary time.
+
+<p align="center">
+  <img src="docs/images/live-pits.svg" alt="GridDeck pit stops" width="72%">
+</p>
+
+#### Race control
+
+Official race control messages in order, including flags, penalties, DRS status
+and safety car calls.
+
+<p align="center">
+  <img src="docs/images/live-race-control.svg" alt="GridDeck race control" width="72%">
+</p>
+
+#### Team radio
+
+Radio clips from the session, newest first. Tap one to play it through the
+onboard speaker, or open the QR code to listen on your phone.
+
+<p align="center">
+  <img src="docs/images/live-radio.svg" alt="GridDeck team radio" width="72%">
+</p>
+
+#### Weather
+
+Conditions measured at the circuit: air and track temperature, humidity, wind,
+pressure and rainfall, with the forecast summary underneath.
+
+<p align="center">
+  <img src="docs/images/live-weather.svg" alt="GridDeck track weather" width="72%">
 </p>
 
 ### Data
