@@ -317,10 +317,38 @@ The constructors' championship, in the same layout with full team names.
 
 ### Settings
 
-Wi-Fi, data source, OpenF1 account, favorite driver, firmware updates, brightness, units, timezone, and screensaver behavior.
+Wi-Fi, data source, OpenF1 account, favourite driver, firmware updates, audio,
+brightness, units, timezone and screensaver behaviour. The list scrolls.
 
 <p align="center">
-  <img src="docs/images/settings.svg" alt="GridDeck settings screen placeholder" width="72%">
+  <img src="docs/images/settings.svg" alt="GridDeck settings" width="72%">
+</p>
+
+#### Wi-Fi
+
+Scans for networks and shows signal strength. **Scan again** forces a fresh scan,
+and the header reports how many networks were found and how long the scan took.
+
+<p align="center">
+  <img src="docs/images/settings-wifi.svg" alt="GridDeck Wi-Fi networks" width="72%">
+</p>
+
+#### OpenF1 account
+
+Links a paid OpenF1 subscription for live data. Scan the QR code with a phone to
+enter your credentials; they are stored on the device only.
+
+<p align="center">
+  <img src="docs/images/settings-account.svg" alt="GridDeck OpenF1 account" width="72%">
+</p>
+
+#### About
+
+Firmware version, IP address, uptime, free memory and which data source is in
+use. Tap anywhere to close.
+
+<p align="center">
+  <img src="docs/images/settings-about.svg" alt="GridDeck about" width="72%">
 </p>
 
 ## Firmware updates
