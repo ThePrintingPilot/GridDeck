@@ -291,9 +291,7 @@ your phone.
 <p align="center">
   <img src="docs/images/data-news-detail.svg" alt="GridDeck news article" width="72%">
 </p>
-### Points
 
-Driver and constructor championship standings, including quick access to your selected favorite driver.
 
 ### Points
 
