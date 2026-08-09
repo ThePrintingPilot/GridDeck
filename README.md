@@ -215,11 +215,107 @@ pressure and rainfall, with the forecast summary underneath.
 
 ### Data
 
-Weekend calendar, race results, qualifying results, starting grid, historical seasons, comparisons, and other non-live information.
+Everything that isn't live: the season calendar, past results, qualifying, the
+grid, driver comparisons and news.
 
+<p align="center">
+  <img src="docs/images/data-hub.svg" alt="GridDeck data hub" width="72%">
+</p>
+
+#### Weather & forecast
+
+The race-day outlook followed by a day-by-day forecast for the circuit, with
+condition, temperature and rain chance. Race day is outlined in red.
+
+<p align="center">
+  <img src="docs/images/data-weather.svg" alt="GridDeck weather and forecast" width="72%">
+</p>
+
+#### Past races
+
+The full season calendar with round number, name and date. Completed rounds are
+marked done and open their result; the current weekend is outlined in red.
+
+<p align="center">
+  <img src="docs/images/data-calendar.svg" alt="GridDeck season calendar" width="72%">
+</p>
+
+#### Race result
+
+The finishing order for a completed race, with team colours and the winner
+highlighted.
+
+<p align="center">
+  <img src="docs/images/data-race-detail.svg" alt="GridDeck race result" width="72%">
+</p>
+
+#### Quali results
+
+The qualifying classification with each driver's session best, pole highlighted.
+
+<p align="center">
+  <img src="docs/images/data-quali.svg" alt="GridDeck qualifying results" width="72%">
+</p>
+
+#### Starting grid
+
+The grid for the upcoming race, in order, with pole highlighted. It appears once
+qualifying has been published.
+
+<p align="center">
+  <img src="docs/images/data-grid.svg" alt="GridDeck starting grid" width="72%">
+</p>
+
+#### Head to head
+
+Compare any two drivers across championship position, points, last race, last
+qualifying, season wins and podiums. Whoever is ahead is shown in green.
+
+<p align="center">
+  <img src="docs/images/data-h2h.svg" alt="GridDeck head to head" width="72%">
+</p>
+
+#### F1 news
+
+Recent headlines from F1 news feeds, newest first, with source and age.
+
+<p align="center">
+  <img src="docs/images/data-news.svg" alt="GridDeck F1 news" width="72%">
+</p>
+
+#### Article
+
+The full item with its summary, plus a QR code to open the original article on
+your phone.
+
+<p align="center">
+  <img src="docs/images/data-news-detail.svg" alt="GridDeck news article" width="72%">
+</p>
 ### Points
 
 Driver and constructor championship standings, including quick access to your selected favorite driver.
+
+### Points
+
+Championship standings, with a toggle between drivers and constructors. Each row
+shows position, team colour, points and a bar scaled against the leader.
+
+#### Drivers
+
+The drivers' championship. Your favourite driver is marked with a star and
+highlighted in gold.
+
+<p align="center">
+  <img src="docs/images/points-drivers.svg" alt="GridDeck drivers championship" width="72%">
+</p>
+
+#### Teams
+
+The constructors' championship, in the same layout with full team names.
+
+<p align="center">
+  <img src="docs/images/points-teams.svg" alt="GridDeck constructors championship" width="72%">
+</p>
 
 ### Settings
 
